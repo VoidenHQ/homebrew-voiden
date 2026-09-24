@@ -6,7 +6,7 @@ class Voiden < Formula
   on_linux do
     url "https://voiden.md/api/download/stable/linux/x64/Voiden-2.3.0.AppImage"
     sha256 "d25ecf80790eee15f13c5e9a136171d359554c2535beddd9106491fbbdea6cd0"
-    version "2.3.0"
+    version "2.3.0" # push-test-marker
 
     def install
       appimage = Dir["*.AppImage"].first
